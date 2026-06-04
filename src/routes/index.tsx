@@ -4,8 +4,8 @@ import { Section } from "@/components/site/Section";
 import { ServiceCard } from "@/components/site/ServiceCard";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { CTA } from "@/components/site/CTA";
-import { services, projects, testimonials } from "@/components/site/data";
-import { ArrowRight, Quote } from "lucide-react";
+import { services, projects } from "@/components/site/data";
+import { ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
