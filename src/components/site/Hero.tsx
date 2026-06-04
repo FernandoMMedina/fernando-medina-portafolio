@@ -13,7 +13,7 @@ export function Hero() {
             Desarrollo web con IA · SEO · Automatización
           </span>
           <h1 className="mt-6 text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
-            Webs que <span className="text-gradient">venden</span>, no solo se ven bien.
+            Webs que <span className="text-gradient">venden</span>, no solo se ven bonitas.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-xl">
             Diseño y desarrollo sitios web modernos para pequeñas empresas que quieren atraer clientes,
