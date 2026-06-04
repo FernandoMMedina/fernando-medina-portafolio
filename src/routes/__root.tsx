@@ -84,6 +84,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Alex Dev" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Alex Dev — Desarrollo web con IA, SEO y automatización" },
+      { name: "twitter:title", content: "Alex Dev — Desarrollo web con IA, SEO y automatización" },
+      { property: "og:description", content: "Desarrollador web freelance especializado en webs modernas, SEO técnico y automatización con IA para pequeñas empresas." },
+      { name: "twitter:description", content: "Desarrollador web freelance especializado en webs modernas, SEO técnico y automatización con IA para pequeñas empresas." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0127ce07-2924-4655-8e4b-e2c0a45eca8e/id-preview-107d96d8--c76662c1-e836-4a44-b9b8-46e14f0a3c56.lovable.app-1780441228917.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0127ce07-2924-4655-8e4b-e2c0a45eca8e/id-preview-107d96d8--c76662c1-e836-4a44-b9b8-46e14f0a3c56.lovable.app-1780441228917.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
