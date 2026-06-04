@@ -10,13 +10,13 @@ export function Hero() {
         <div className="animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur shadow-soft">
             <Sparkles className="h-3.5 w-3.5 text-primary" />
-            Desarrollo web con IA · SEO · Automatización
+            Desarrollo web
           </span>
           <h1 className="mt-6 text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
-            Webs que <span className="text-gradient">venden</span>, no solo se ven bonitas.
+            Webs que <span className="text-gradient">venden</span>, no solo se ven bien.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-xl">
-            Diseño y desarrollo sitios web modernos para pequeñas empresas que quieren atraer clientes,
+            Diseño y desarrollo sitios web modernos para empresas y organizaciones que quieren atraer clientes,
             posicionar en Google y automatizar su negocio con IA.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -35,7 +35,7 @@ export function Hero() {
             </Link>
           </div>
           <div className="mt-10 flex items-center gap-6 text-xs text-muted-foreground">
-            <div><strong className="text-foreground text-lg">25+</strong><br/>Proyectos entregados</div>
+            <div><strong className="text-foreground text-lg">5+</strong><br/>Proyectos entregados</div>
             <div className="h-8 w-px bg-border" />
             <div><strong className="text-foreground text-lg">98%</strong><br/>Clientes satisfechos</div>
             <div className="h-8 w-px bg-border" />
@@ -47,7 +47,7 @@ export function Hero() {
           <div className="relative rounded-3xl overflow-hidden shadow-elegant border border-border bg-card">
             <img
               src={avatar}
-              alt="Alex Dev, desarrollador web freelance"
+              alt="Fernando, desarrollador web freelance"
               width={768}
               height={768}
               className="w-full h-auto"
