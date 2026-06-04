@@ -4,8 +4,8 @@ import { Section } from "@/components/site/Section";
 import { ServiceCard } from "@/components/site/ServiceCard";
 import { ProjectCard } from "@/components/site/ProjectCard";
 import { CTA } from "@/components/site/CTA";
-import { services, projects, testimonials } from "@/components/site/data";
-import { ArrowRight, Quote } from "lucide-react";
+import { services, projects } from "@/components/site/data";
+import { ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -76,27 +76,6 @@ function Index() {
           </Link>
         </div>
       </Section>
-
-      <div className="bg-surface/60">
-        <Section
-          eyebrow="Testimonios"
-          title="Lo que dicen mis clientes"
-          center
-        >
-          <div className="grid md:grid-cols-2 gap-6">
-            {testimonials.map((t) => (
-              <figure key={t.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft">
-                <Quote className="h-6 w-6 text-primary mb-4" />
-                <blockquote className="text-base md:text-lg text-foreground leading-relaxed">"{t.quote}"</blockquote>
-                <figcaption className="mt-5 text-sm">
-                  <div className="font-semibold text-foreground">{t.name}</div>
-                  <div className="text-muted-foreground">{t.role}</div>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </Section>
-      </div>
 
       <CTA />
     </>
