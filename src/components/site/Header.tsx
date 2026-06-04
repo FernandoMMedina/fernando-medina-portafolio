@@ -17,7 +17,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between container-px py-4">
         <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-primary-gradient text-primary-foreground text-sm font-bold shadow-elegant">A</span>
-          <span>Fer Dev</span>
+          <span>Alex Dev</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {nav.map((n) => (
