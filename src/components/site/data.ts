@@ -87,7 +87,7 @@ export const testimonials = [
   {
     name: "María García",
     role: "CEO, Boutique Aurora",
-    quote: "Alex transformó nuestra web por completo. Las ventas online subieron un 180% en 3 meses.",
+    quote: "Fernando transformó nuestra web por completo. Las ventas online subieron un 180% en 3 meses.",
   },
   {
     name: "Carlos Martín",

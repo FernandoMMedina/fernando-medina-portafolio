@@ -10,9 +10,9 @@ import { ArrowRight, Quote } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Dev — Desarrollo web con IA, SEO y automatización" },
-      { name: "description", content: "Webs modernas que venden. Desarrollo web freelance, SEO técnico y automatización con IA para pequeñas empresas y negocios locales." },
-      { property: "og:title", content: "Alex Dev — Webs que venden" },
+      { title: "Fer Dev — Desarrollo web con IA, SEO y automatización" },
+      { name: "description", content: "Webs modernas que venden. Desarrollo web freelance, SEO técnico y automatización con IA para empresas y organizaciones." },
+      { property: "og:title", content: "Fer Dev — Webs que venden" },
       { property: "og:description", content: "Desarrollo web freelance con IA, SEO y automatización." },
       { property: "og:url", content: "/" },
     ],
@@ -28,12 +28,12 @@ function Index() {
 
       <Section
         eyebrow="Sobre mí"
-        title="Desarrollador web obsesionado con resultados"
-        description="Soy Alex, desarrollador freelance especializado en crear webs modernas, rápidas y optimizadas. Combino diseño, código limpio, SEO técnico e IA para que tu negocio crezca online."
+        title="Desarrollador web con buenos resultados"
+        description="Soy Fernando, desarrollador freelance especializado en crear webs modernas, rápidas y optimizadas para campañas de ADS. Combino diseño, SEO técnico e IA para que tu negocio crezca de manera online."
       >
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { t: "Experiencia", d: "+3 años creando webs para pymes, startups y negocios locales." },
+            { t: "Experiencia", d: "Creación de webs para pymes, startups y negocios locales." },
             { t: "Especialidades", d: "React, Next.js, SEO técnico, CRO, automatización con IA." },
             { t: "Stack", d: "TypeScript, Tailwind, Supabase, OpenAI, Vercel y más." },
           ].map((b) => (
@@ -48,7 +48,7 @@ function Index() {
       <div className="bg-surface/60">
         <Section
           eyebrow="Servicios"
-          title="Todo lo que tu negocio necesita online"
+          title="Todo lo que tu negocio necesita"
           description="Desde la idea hasta el lanzamiento y la optimización continua."
         >
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

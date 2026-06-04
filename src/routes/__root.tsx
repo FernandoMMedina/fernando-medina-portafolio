@@ -79,10 +79,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Dev — Desarrollo web con IA, SEO y automatización" },
-      { name: "description", content: "Desarrollador web freelance especializado en webs modernas, SEO técnico y automatización con IA para pequeñas empresas." },
+      { title: "Fer Dev — Desarrollo web con IA, SEO y automatización" },
+      { name: "description", content: "Desarrollador web freelance especializado en webs modernas, SEO técnico y automatización con IA para empresas y organizaciones." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Alex Dev" },
+      { property: "og:site_name", content: "Fer Dev" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
